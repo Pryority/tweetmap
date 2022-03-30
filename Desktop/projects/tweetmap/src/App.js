@@ -1,12 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import PageHeader from './PageHeader';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-xl font-bold underline">
-        Hello world!
-      </h1>
+      <PageHeader />
     </div>
   );
 }
